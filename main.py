@@ -176,4 +176,3 @@
 #         print("polindrop")
 #     else:
 #         print("unpolindrop")
-print("aa")
