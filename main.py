@@ -175,4 +175,5 @@
 #     if son[0!=2] in vowels:
 #         print("polindrop")
 #     else:
-#         print("unpolindrop") ggg
+#         print("unpolindrop")
+print("aa")
