@@ -55,7 +55,7 @@
 #         "Yaponiya": "Tokyo",
 #         "Qozog'iston": "Astana",
 #  }
-# for davlat, poytaxt in sorted(davlat_poytaxt_items()):
+# for davlat, poytaxt in sorted(davlat_poytaxt.items()):
 #  print(f'{davlat} ning poytaxti {poytaxt}.')
 # davlat = input("davlatlarning nomini kiriting:")
 
@@ -176,3 +176,32 @@
 #         print("polindrop")
 #     else:
 #         print("unpolindrop")
+# def des():
+#     a = int(input("narhni kiriting:"))
+#     b = int(input("foizni kiriting:"))
+#     return f"dis({a}, {b}) ➞ {a-(a*b/100)}"
+# print(des())
+
+# oila_azolari = {
+#         "Po'lathon": "Saidjahonning dadasi",
+#         "Sanobar": "Saidjahonning onasi",
+#         "Sevdora": "Saidjahonning opasi",
+#         "Noilahon": "Saidjahonning singlisi",
+#         "Xushnoza": "Saidjahonning ustozi",
+#         "Mustafo": "Saidjahonning ustozi",
+#         "Azizhon": "Saidjahonning pochchasi",
+#  }
+# oila = input("davlatlarning nomini kiriting:")
+# while True:
+#     if oila in oila_azolari:
+#         print(f"{oila} {oila_azolari[oila]}")
+#         break
+#     else:
+#         print("malumot yoo")
+#         break
+def yigindi():
+    a = int(input("son:"))
+    b = int(input("son:"))
+    c = int(input("son:"))
+    return a+b+c
+print(yigindi())
