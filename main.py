@@ -205,12 +205,39 @@
 #     c = int(input("son:"))
 #     return a+b+c
 # print(yigindi())
-import math
+# import math
+#
+# def find_exponent(n):
+#     for a in range(2, int(math.sqrt(n)) + 1):
+#         x = round(math.log(n, a))
+#         if a ** x == n:
+#             return a, x
+#     return n, 1
+# print(find_exponent(n = int(input("son kirit"))))
+# from http.server import HTTPServer,BaseHTTPRequestHandler
+#
+# HOST = "192.168.100.20"
+# PORT = 9999
+#
+# class NeuralHTTP(BaseHTTPRequestHandler):
+#
+#     def do_GET(self):
+#         self.send_response(200)
+#         self.send_header("Comtent-type","text/html")
+#         self.end_headers()
+#
+#         self.wfile.write(bytes("<html><body></body><h1>HELLO WORLD!</h1></html>", "utf-8"))
+# server = HTTPServer((HOST,PORT),NeuralHTTP)
+# print("Server now runing...")
+# server.serve_forever()
+# server.server_close()
+# print("Server stopped!")
+import requests
 
-def find_exponent(n):
-    for a in range(2, int(math.sqrt(n)) + 1):
-        x = round(math.log(n, a))
-        if a ** x == n:
-            return a, x
-    return n, 1
-print(find_exponent(n = int(input("son kirit"))))
+url = "https://jsonplaceholder.typicode.com/posts/1"
+response = requests.get(url)
+
+if response.status_code == 200:
+    print(response.json())
+else:
+    print(f"Xatolik: {response.status_code}")
