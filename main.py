@@ -199,9 +199,18 @@
 #     else:
 #         print("malumot yoo")
 #         break
-def yigindi():
-    a = int(input("son:"))
-    b = int(input("son:"))
-    c = int(input("son:"))
-    return a+b+c
-print(yigindi())
+# def yigindi():
+#     a = int(input("son:"))
+#     b = int(input("son:"))
+#     c = int(input("son:"))
+#     return a+b+c
+# print(yigindi())
+import math
+
+def find_exponent(n):
+    for a in range(2, int(math.sqrt(n)) + 1):
+        x = round(math.log(n, a))
+        if a ** x == n:
+            return a, x
+    return n, 1
+print(find_exponent(n = int(input("son kirit"))))
