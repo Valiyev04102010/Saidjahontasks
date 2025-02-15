@@ -232,12 +232,43 @@
 # server.serve_forever()
 # server.server_close()
 # print("Server stopped!")
-import requests
+# import requests
+#
+# url = "https://jsonplaceholder.typicode.com/posts/1"
+# response = requests.get(url)
+#
+# if response.status_code == 200:
+#     print(response.json())
+# else:
+#     print(f"Xatolik: {response.status_code}")
+# def raqam(n):
+#     a = n//2
+#     d = n-a
+#     return f"({n}) [{d},{a}]"
+# print(raqam(n = int(input("son kiriting:"))))
 
-url = "https://jsonplaceholder.typicode.com/posts/1"
-response = requests.get(url)
 
-if response.status_code == 200:
-    print(response.json())
-else:
-    print(f"Xatolik: {response.status_code}")
+
+# numbers = [10, 20, 30, 40]
+#
+# for i in range(len(numbers)):
+#     numbers[i] += i
+
+
+# print(numbers)
+# def find_even_nums(n):
+#     return [i for i in range(2, n+1, 2)]
+# print(find_even_nums(n = int(input("son kirit:"))))
+
+
+# def integer(a):
+#     return [x for x in a if type(x) == int]
+# print(integer(a = [1,2,3,"a",2,"b"] ))
+
+# def get_budgets(lst):
+#     return sum( i["budget"] for i in lst)
+# print(get_budgets([
+#   { "name": "John", "age": 21, "budget": 23000 },
+#   { "name": "Steve",  "age": 32, "budget": 40000 },
+#   { "name": "Martin",  "age": 16, "budget": 2700 }
+# ]))
