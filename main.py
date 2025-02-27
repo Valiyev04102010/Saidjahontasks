@@ -1,18 +1,8 @@
-# while True:
-#     yosh = int(input("yoshingizni kiriting:"))
-#     if yosh < 18 and  yosh > 1 :
-#         print("siz hali yosh ekansiz")
-#     elif yosh >=18 and yosh <=27 :
-#         print("tabriklaymiz siz qabul qilindingiz")
-#     elif yosh < 0:
-#         print("lox deb oylayabsanmi")
-#     else:
-#         print("Afsuski qarib qobsiz")
-#lesson_5
+# lesson_5
 # list
 # lst = [] lst=ozgaruvchi qavs listni funksiyasi list oziga xar xil malumotlarni bittada qabul qiladi
 # lst = ["Saidjahon", 1,2,3,4,True,False]
-#metodlar
+# # metodlar
 # ismlar = ["Omadbek","Saidjahon","Gulsanam","Sunnatillo"]
 # ismlar_2 = ["Omadbek","Saidjahon","Gulsanam","Sunnatillo"]
 # print(ismlar)
@@ -33,7 +23,7 @@
 #       son = int(input("olmalar sonini kirit:"))
 #       son1 = int(input("oquvchilar sonini kirit:"))
 #       if son > 0:
-# #             print(f"{son%son1}ta olma qoldi")
+#             print(f"{son%son1}ta olma qoldi")
 # while True:
 #       son = int(input("son kirit g'alcha:"))
 #       if son > 0:
@@ -45,24 +35,24 @@
 #       oquvchilar = 35
 #       if qizlar <35:
 #             print(f"demak ogil bolalar{oquvchilar - qizlar}ta")
-
+#
 # davlat_poytaxt = {
-#         "Turkiya": "Anqara",
-#         "O'zbekiston": "Toshkent",
-#         "Rossiya": "Moskva",
-#         "Fransiya": "Parij",
-#         "Argentina": "Buyene Ayres",
-#         "Yaponiya": "Tokyo",
-#         "Qozog'iston": "Astana",
-#  }
+#     "Turkiya": "Anqara",
+#     "O'zbekiston": "Toshkent",
+#     "Rossiya": "Moskva",
+#     "Fransiya": "Parij",
+#     "Argentina": "Buyene Ayres",
+#     "Yaponiya": "Tokyo",
+#     "Qozog'iston": "Astana",
+# }
 # for davlat, poytaxt in sorted(davlat_poytaxt.items()):
 #  print(f'{davlat} ning poytaxti {poytaxt}.')
 # davlat = input("davlatlarning nomini kiriting:")
-
-
-
-
-
+#
+#
+#
+#
+#
 # from bs4 import BeautifulSoup
 # import requests
 # url = "https://asaxiy.uz/product/kompyutery-i-orgtehnika/noutbuki/noutbuki-2"
@@ -91,28 +81,28 @@
 # def qoshish():
 #     son1 = int(input("son kirit:"))
 #     son2 = int(input("son kirit:"))
-#     natija = son1+son2
-#     return f"{son1} va {son2}ning yigindisi {natija}ga teng"
+#     natijada = son1+son2
+#     return f"{son1} va {son2}ning yigindisi {natijada}ga teng"
 # print(qoshish())
-
+#
 # def ayirish():
 #     son1 = int(input("son kiriting"))
 #     son2 = int(input("son kiriting"))
-#     natija = son1-son2
-#     return f"{son1} va {son2}ning ayirmasi {natija}ga teng"
+#     natijasi = son1-son2
+#     return f"{son1} va {son2}ning ayirmasi {natijasi}ga teng"
 # print(ayirish())
 #
 # def kopaytirish():
 #     son1 = int(input("son kirit"))
 #     son2 = int(input("son kirit"))
-#     natija = son1*son2
-#     if natija<= 0:
+#     natijasida = son1*son2
+#     if natijasida<= 0:
 #         print("bu hato")
 #     else:
-#         print(f"{son1} bilan {son2}ning kopaytmasi {natija}ga teng")
+#         print(f"{son1} bilan {son2}ning kopaytmasi {natijasida}ga teng")
 #     return
 # print(kopaytirish())
-
+#
 # def bolish():
 #     son1 = int(input("son kirit"))
 #     son2 = int(input("son kirit"))
@@ -121,7 +111,7 @@
 #     #     print("eror")
 #     return print(f"{son1} bilan {son2}ning bolinmasi {natija}ga teng")
 # print(bolish())
-
+#
 # def olma():
 #     son1 = int(input("olma nechta"))
 #     son2 = int(input("omadga bervordim "))
@@ -130,16 +120,16 @@
 #         print("eror")
 #     return print (f"{son1}  bilan {son2}ning ayirmasi {natija}ga teng")
 # print (olma())
-
+#
 # def kub(a):
 #     b = a**3
 #     return f"darajasi({a})"
-
+#
 # lst = (100, 200, 300, 450)
 # percent = int(input("foizni kiriting"))
 # natija = [x*(percent/100) for x in lst]
 # print(natija)
-
+#
 # while True:
 #     soz = input("soz kirit:")
 #     vowels = "aeiouAEIOU"
@@ -177,11 +167,11 @@
 #     else:
 #         print("unpolindrop")
 # def des():
-#     a = int(input("narhni kiriting:"))
-#     b = int(input("foizni kiriting:"))
-#     return f"dis({a}, {b}) ➞ {a-(a*b/100)}"
+#      a = int(input("narhni kiriting:"))
+#      b = int(input("foizni kiriting:"))
+#      return f"dis({a}, {b}) ➞ {a-(a*b/100)}"
 # print(des())
-
+#
 # oila_azolari = {
 #         "Po'lathon": "Saidjahonning dadasi",
 #         "Sanobar": "Saidjahonning onasi",
@@ -204,34 +194,17 @@
 #     b = int(input("son:"))
 #     c = int(input("son:"))
 #     return a+b+c
-# print(yigindi())
+#  print(yigindi())
 # import math
 #
 # def find_exponent(n):
 #     for a in range(2, int(math.sqrt(n)) + 1):
-#         x = round(math.log(n, a))
-#         if a ** x == n:
-#             return a, x
+#         y = round(math.log(n, a))
+#         if a ** y == n:
+#             return a, y
 #     return n, 1
 # print(find_exponent(n = int(input("son kirit"))))
-# from http.server import HTTPServer,BaseHTTPRequestHandler
 #
-# HOST = "192.168.100.20"
-# PORT = 9999
-#
-# class NeuralHTTP(BaseHTTPRequestHandler):
-#
-#     def do_GET(self):
-#         self.send_response(200)
-#         self.send_header("Comtent-type","text/html")
-#         self.end_headers()
-#
-#         self.wfile.write(bytes("<html><body></body><h1>HELLO WORLD!</h1></html>", "utf-8"))
-# server = HTTPServer((HOST,PORT),NeuralHTTP)
-# print("Server now runing...")
-# server.serve_forever()
-# server.server_close()
-# print("Server stopped!")
 # import requests
 #
 # url = "https://jsonplaceholder.typicode.com/posts/1"
@@ -246,29 +219,42 @@
 #     d = n-a
 #     return f"({n}) [{d},{a}]"
 # print(raqam(n = int(input("son kiriting:"))))
-
-
-
+#
+#
+#
 # numbers = [10, 20, 30, 40]
 #
 # for i in range(len(numbers)):
 #     numbers[i] += i
-
-
+# #
+# #
 # print(numbers)
 # def find_even_nums(n):
 #     return [i for i in range(2, n+1, 2)]
 # print(find_even_nums(n = int(input("son kirit:"))))
-
-
+# #
+# #
 # def integer(a):
-#     return [x for x in a if type(x) == int]
+#     return [z for z in a if type(z) == int]
 # print(integer(a = [1,2,3,"a",2,"b"] ))
-
-# def get_budgets(lst):
-#     return sum( i["budget"] for i in lst)
+# #
+# def get_budgets(lst_1):
+#     return sum( i["budget"] for i in lst_1  )
 # print(get_budgets([
 #   { "name": "John", "age": 21, "budget": 23000 },
 #   { "name": "Steve",  "age": 32, "budget": 40000 },
 #   { "name": "Martin",  "age": 16, "budget": 2700 }
 # ]))
+# lst = 38,27,43,10
+#38,27|43,10|
+#38|27|43|10
+#27|38|10|43
+#27|10|38|43
+#10 27 38 43
+
+def clone(lst):
+    lst.append(lst[:])
+    return lst
+print(clone(lst = [1,2,3,4,5,6,"x","y"]))
+
+
