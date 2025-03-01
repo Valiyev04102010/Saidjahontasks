@@ -11,7 +11,7 @@
 ## DATA STRUKTURA BU MALUMOTLARNI SAQLASH VA TARTIBGA SOLISH UCHUN ISHLATILADI
 ## Massive bu bir turdagi malumotlarni saqlaydi va xotirani qayeridandir joy oladi
 ## Linked list qayerda element qoshib qayerdan malumot olib tashlashni bilsak bu amal konstanta vaqt yani juda tez amalga oshiriladi
-## Queue bu navbat, Birinchi borgan birinchi chiqadi
+## Queue bu navbat, Birinchi borgan birinchi chiqadi FIFO
 ## Graphs:bu 3ga bolinadi
 ## 1 - Directed Graphs bu borsa kelmas
 ## 2 - Undirected Graphs bu hamanarsaga ruxsat bor borasan qaytasan aylanasan
@@ -19,3 +19,7 @@
 ## Trees:2ga bolinadi
 ## 1 - Binary tree bu faqat 2ga bolinadi
 ## 2 - B-Tree bu faqat ozini sherigi bolishi kerak
+## Stack bu birinchi kirgan oxiri chiqadi FILO
+## Dequeue bu ikki tomonlama kirish chiqish 
+## peek obyektni yangilab keladi oladi va oziga olib qoyadi Malumotlar almashinuvini amalga oshiradi
+## Queue
