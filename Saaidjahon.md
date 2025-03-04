@@ -22,4 +22,6 @@
 ## Stack bu birinchi kirgan oxiri chiqadi FILO
 ## Dequeue bu ikki tomonlama kirish chiqish 
 ## peek obyektni yangilab keladi oladi va oziga olib qoyadi Malumotlar almashinuvini amalga oshiradi
-## Queue
+## Python-dagi algoritm — bu aniq bir muammoni hal qilish uchun ketma-ket bajariladigan buyruqlar to‘plamidir.
+## Liner search tartibsiz qidiruv 
+## Binary search alfavit boyicha 2ga bolinadi
