@@ -252,12 +252,13 @@
 #27|10|38|43
 #10 27 38 43
 
-def clone(lst):
-    lst.append(lst[:])
-    return lst
-print(clone(lst = [1,2,3,4,5,6,"x","y"]))
+# def clone(lst):
+#     lst.append(lst[:])
+#     return lst
+# print(clone(lst = [1,2,3,4,5,6,"x","y"]))
+#
+# n = int(input("son kirit:"))
+# for x in range(1,n + 1):
+#     print(x*(x-1)//2)
+# T(n) == 4*nd
 
-n = int(input("son kirit:"))
-for x in range(1,n + 1):
-    print(x*(x-1)//2)
-#T(n) == 4*n
